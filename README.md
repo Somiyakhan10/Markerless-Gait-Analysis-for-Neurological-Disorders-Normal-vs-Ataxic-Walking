@@ -28,21 +28,9 @@ The dataset contains 3D joint coordinates extracted from walking videos:
 - Calculated angles: ThetaShoulder, ThetaHip, ThetaKnee
 - Gait parameters: StepLength, StepWidth, FeetClearance, StrideSpeed
 
-## 🚀 How to Run
 
-### Option 1: Google Colab (Recommended)
-1. Open [Google Colab](https://colab.research.google.com)
-2. Upload the notebook `gait_analysis.ipynb`
-3. Run all cells
-4. Upload your CSV files when prompted
 
-### Option 2: Local Machine
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/gait-analysis-normal-vs-ataxic.git
 
-# Install dependencies
-pip install -r requirements.txt
 
 # Run the script
 python gait_analysis.py
